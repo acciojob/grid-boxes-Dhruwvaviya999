@@ -10,8 +10,8 @@
 			  height:350px;
 			  font-size:25px;
 			  background-color:green;
+			  grid-template-rows: 124px 124px 124px 124px 124px;
 			  grid-template-columns: repeat(4, 1fr);
-			  grid-template-rows: repeat(5, 1fr)
 		  }
 
 		  .box{
@@ -20,7 +20,7 @@
 		  }
 
 		  .box1{
-			  grid-column: 1/6;
+			  grid-column: span 4 / auto;
 			  border-bottom:5px solid white
 		  }
 
@@ -30,6 +30,7 @@
 		  }
 
 		  .box3{
+			  grid-column:2/3;
 			  border-bottom:5px solid white;
 		  }
 

@@ -12,6 +12,7 @@
 			  background-color:green;
 			  grid-template-rows: repeat(124px, 5);
 			  grid-template-columns: repeat(242.5px, 4);
+			  grid-gap:10px 10px;
 		  }
 
 		  .box{
@@ -25,28 +26,26 @@
 		  }
 
 		  .box2{
-			  grid-row:2/6;
+			  grid-row:span 4 / auto;
 			  border-right: 5px solid white;
 		  }
 
 		  .box3{
-			  grid-column:2/3;
 			  border-bottom:5px solid white;
 		  }
 
 		  .box4{
-			  grid-column:3/6;
+			  grid-column:span 2 / auto;
 			  border-bottom:5px solid white;
 			  border-left:5px solid white;
 		  }
 
 		  .box5{
-			  grid-column:2/4;
+			  grid-column:span 2 / auto;
 			  border-bottom:5px solid white;
 		  }
 
 		  .box6{
-			  grid-column:4/6;
 			  border-left:5px solid white;
 			  border-bottom:5px solid white;
 		  }
@@ -56,7 +55,7 @@
 		  }
 
 		  .box10{
-			  grid-column:2/6;
+			  grid-column:span 3 / auto;
 			  border-top: 5px solid white;
 		  }
 	  </style>
